@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Tables in HTML</h1>
+    <!-- table > tr*4 > td*3 -->
+    <table border="1">
+      <caption>
+        Students Data
+      </caption>
+      <tr>
+        <th>Sr.No</th>
+        <th>Name of Student</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <th>1.</th>
+        <td>John</td>
+        <td rowspan="2">20</td>
+      </tr>
+      <tr>
+        <th>2.</th>
+        <td>Smith</td>
+        <!-- <td>20</td> -->
+      </tr>
+      <tr>
+        <th>3.</th>
+        <td>Don</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td colspan="2">Total No. of Students</td>
+        <td>3</td>
+      </tr>
+    </table>
+  </body>
+</html>
